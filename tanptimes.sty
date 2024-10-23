@@ -1,0 +1,98 @@
+%
+% Copyright (C) 2024 by Jingxuan Yang <yanglatex2e@gmail.com>
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3c
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%      http://www.latex-project.org/lppl.txt
+% and version 1.3c or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL1.3c maintenance status `maintained'.
+%
+
+\ProvidesPackage{tanptimes}[2024/10/23 1.0 Making Text, Alphabet, Numbers and Punctuations in Times]
+
+% text in times
+\renewcommand{\rmdefault}{ptm}
+
+% ref: http://mirrors.ctan.org/macros/latex/base/fntguide.pdf
+% ref: http://mirrors.ctan.org/macros/latex/base/encguide.pdf
+
+% math numbers in times
+\DeclareSymbolFont{tanpnormal}{OT1}{ptm}{m}{n}
+\DeclareMathSymbol{0}{\mathalpha}{tanpnormal}{48}
+\DeclareMathSymbol{1}{\mathalpha}{tanpnormal}{49}
+\DeclareMathSymbol{2}{\mathalpha}{tanpnormal}{50}
+\DeclareMathSymbol{3}{\mathalpha}{tanpnormal}{51}
+\DeclareMathSymbol{4}{\mathalpha}{tanpnormal}{52}
+\DeclareMathSymbol{5}{\mathalpha}{tanpnormal}{53}
+\DeclareMathSymbol{6}{\mathalpha}{tanpnormal}{54}
+\DeclareMathSymbol{7}{\mathalpha}{tanpnormal}{55}
+\DeclareMathSymbol{8}{\mathalpha}{tanpnormal}{56}
+\DeclareMathSymbol{9}{\mathalpha}{tanpnormal}{57}
+
+% math punctuations in times
+\DeclareMathSymbol{,}{\mathpunct}{tanpnormal}{44}
+\DeclareMathSymbol{.}{\mathpunct}{tanpnormal}{46}
+
+% math alphabet in times
+\DeclareSymbolFont{tanpitalic}{OT1}{ptm}{m}{it}
+\DeclareMathSymbol{A}{\mathalpha}{tanpitalic}{65}
+\DeclareMathSymbol{B}{\mathalpha}{tanpitalic}{66}
+\DeclareMathSymbol{C}{\mathalpha}{tanpitalic}{67}
+\DeclareMathSymbol{D}{\mathalpha}{tanpitalic}{68}
+\DeclareMathSymbol{E}{\mathalpha}{tanpitalic}{69}
+\DeclareMathSymbol{F}{\mathalpha}{tanpitalic}{70}
+\DeclareMathSymbol{G}{\mathalpha}{tanpitalic}{71}
+\DeclareMathSymbol{H}{\mathalpha}{tanpitalic}{72}
+\DeclareMathSymbol{I}{\mathalpha}{tanpitalic}{73}
+\DeclareMathSymbol{J}{\mathalpha}{tanpitalic}{74}
+\DeclareMathSymbol{K}{\mathalpha}{tanpitalic}{75}
+\DeclareMathSymbol{L}{\mathalpha}{tanpitalic}{76}
+\DeclareMathSymbol{M}{\mathalpha}{tanpitalic}{77}
+\DeclareMathSymbol{N}{\mathalpha}{tanpitalic}{78}
+\DeclareMathSymbol{O}{\mathalpha}{tanpitalic}{79}
+\DeclareMathSymbol{P}{\mathalpha}{tanpitalic}{80}
+\DeclareMathSymbol{Q}{\mathalpha}{tanpitalic}{81}
+\DeclareMathSymbol{R}{\mathalpha}{tanpitalic}{82}
+\DeclareMathSymbol{S}{\mathalpha}{tanpitalic}{83}
+\DeclareMathSymbol{T}{\mathalpha}{tanpitalic}{84}
+\DeclareMathSymbol{U}{\mathalpha}{tanpitalic}{85}
+\DeclareMathSymbol{V}{\mathalpha}{tanpitalic}{86}
+\DeclareMathSymbol{W}{\mathalpha}{tanpitalic}{87}
+\DeclareMathSymbol{X}{\mathalpha}{tanpitalic}{88}
+\DeclareMathSymbol{Y}{\mathalpha}{tanpitalic}{89}
+\DeclareMathSymbol{Z}{\mathalpha}{tanpitalic}{90}
+
+\DeclareMathSymbol{a}{\mathalpha}{tanpitalic}{97}
+\DeclareMathSymbol{b}{\mathalpha}{tanpitalic}{98}
+\DeclareMathSymbol{c}{\mathalpha}{tanpitalic}{99}
+\DeclareMathSymbol{d}{\mathalpha}{tanpitalic}{100}
+\DeclareMathSymbol{e}{\mathalpha}{tanpitalic}{101}
+\DeclareMathSymbol{f}{\mathalpha}{tanpitalic}{102}
+\DeclareMathSymbol{g}{\mathalpha}{tanpitalic}{103}
+\DeclareMathSymbol{h}{\mathalpha}{tanpitalic}{104}
+\DeclareMathSymbol{i}{\mathalpha}{tanpitalic}{105}
+\DeclareMathSymbol{j}{\mathalpha}{tanpitalic}{106}
+\DeclareMathSymbol{k}{\mathalpha}{tanpitalic}{107}
+\DeclareMathSymbol{l}{\mathalpha}{tanpitalic}{108}
+\DeclareMathSymbol{m}{\mathalpha}{tanpitalic}{109}
+\DeclareMathSymbol{n}{\mathalpha}{tanpitalic}{110}
+\DeclareMathSymbol{o}{\mathalpha}{tanpitalic}{111}
+\DeclareMathSymbol{p}{\mathalpha}{tanpitalic}{112}
+\DeclareMathSymbol{q}{\mathalpha}{tanpitalic}{113}
+\DeclareMathSymbol{r}{\mathalpha}{tanpitalic}{114}
+\DeclareMathSymbol{s}{\mathalpha}{tanpitalic}{115}
+\DeclareMathSymbol{t}{\mathalpha}{tanpitalic}{116}
+\DeclareMathSymbol{u}{\mathalpha}{tanpitalic}{117}
+\DeclareMathSymbol{v}{\mathalpha}{tanpitalic}{118}
+\DeclareMathSymbol{w}{\mathalpha}{tanpitalic}{119}
+\DeclareMathSymbol{x}{\mathalpha}{tanpitalic}{120}
+\DeclareMathSymbol{y}{\mathalpha}{tanpitalic}{121}
+\DeclareMathSymbol{z}{\mathalpha}{tanpitalic}{122}
+
+% bold numbers and alphabet in times
+\SetSymbolFont{tanpnormal}{bold}{OT1}{ptm}{b}{n}
+\SetSymbolFont{tanpitalic}{bold}{OT1}{ptm}{b}{it}
