@@ -12,7 +12,7 @@
 % This work has the LPPL1.3c maintenance status `maintained'.
 %
 
-\ProvidesPackage{tanptimes}[2024/10/23 1.0 Making Text, Alphabet, Numbers and Punctuations in Times]
+\ProvidesPackage{tanptimes}[2024/10/30 2.0 Making Text, Alphabet, Numbers and Punctuations in Times]
 
 % text in times
 \renewcommand{\rmdefault}{ptm}
@@ -96,3 +96,13 @@
 % bold numbers and alphabet in times
 \SetSymbolFont{tanpnormal}{bold}{OT1}{ptm}{b}{n}
 \SetSymbolFont{tanpitalic}{bold}{OT1}{ptm}{b}{it}
+
+% operator names in times
+% ref: https://tex.stackexchange.com/questions/219417/how-to-change-the-default-font-of-math-operators
+\renewcommand{\operator@font}{\mathgroup\symtanpnormal}
+
+% math font commands in times
+% ref: https://tex.stackexchange.com/questions/149960/what-is-the-cleanest-way-to-redefine-math-mode-font-commands-such-as-mathrm-and
+\DeclareMathAlphabet{\mathbf}{OT1}{ptm}{b}{n}
+\DeclareMathAlphabet{\mathrm}{OT1}{ptm}{m}{n}
+\DeclareMathAlphabet{\mathit}{OT1}{ptm}{m}{it}
